@@ -14,7 +14,7 @@ deploy:
   provider: releases
   api_key:
     secure: SJ0FhR6RI/fZsnVbWj1YOYlVW/KmPP33FQyInDr2E8Tx6ffSmVADpzn/1ORRVtPzWCkV4VSZmVuMT9m7qwLRQfMBJiXgLKOSmQQlgTwc6CBDICCdcbXTEKSdr4QNu8j+x7Dzlq77F5HKG6wclnHhbQdJlbALNqNVM4GX3oP0tFw8b+wALlP7rHOnPr7rQc+hauuv+/3RLrc3wRLbMrjRoWMIcjeiAfFU8TWGKsuiFn5eBimOiwc3+/MFgONQTU8JOMgebvXom2GVMz3oBYKxgQG3f2sfgdrOBFJ7Im9CQrbnCjDuOqPJ+oarraKywgNh9J3QNiz7WlVcH7j4k3KdSi+sSImPskXOVfgIGqcx/aEmM+cULOv7KL7zpMmdK3vJEs9XVuVOxVF3HR2RsXbxDdyD/qJwYXrxTdVtXtz3BIJ7BJGgujvVQ1X6MVzoqCxTOjH7K9ykJHE1uaORf3Hc8rBUpXsrLz8WwIWL8VygdLRyZC5on0Sk0qFcoVSWezhI1pqpim6gELFY11XsDrb266AIDFB+rvWe4OA080zwpgwBr7fajFFPEqmzVpkjM0qotD4vXMSjLEz4UG7rbXD22hvLGqiYftuzY68GIlFIdhBtZH0VbgJ8KBh+BiWslUzvNnXkw8KTXVPnUqdeKsl55/CNYq/l8Wr8XLYQgmMYcks=
-  file: '$TRAVIS_BUILD_DIR/build/Release/uft-8-validate.node'
+  file: '$TRAVIS_BUILD_DIR/build/Release/validation.node'
   skip_cleanup: true
   on:
     tags: false
